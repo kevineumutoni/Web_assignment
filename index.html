@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>login</title>
+    <title>Sign Up</title>
     <link rel="icon" href="images/login.png">
     <style>
-
+            /* styling the whole page */
         body{
             font-family: sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff6f6;
-            
+            background-color: #fff6f6; 
 
         }
+        /* styling the whole form adding the starting pint */
+
         form{
             margin-left: 30px;
 
         }
+        /* styling the whole div of signin */
     
-    
-        .sign-in-form{
+        .sign-up-form{
             width: 600px;
             box-shadow: 5px 5px 6px 5px rgb(192, 189, 189), -5px -5px 6px 5px rgb(224, 215, 215);
             padding: 10px;
@@ -33,28 +34,32 @@
             background-color: white;
 
         }
-        .sign-in-form h1{
+        .sign-up-form h1{
             color: rgb(3, 3, 3);
             margin-bottom: 30px;
             margin-left: 30px;
 
         }
+        /* styling the put password class */
         .put-password{
             border-radius: 20px;
            
             text-align: left;
 
         }
-        .sign-in-form label{
+        /* Styling the labels in the form*/
+        .sign-up-form label{
             width: 80%;
             height: 800px;
         }
+        /* styling the input page so that they start at the same line */
        
         #input{
             margin-left: 56px;
         }
+        /* styling the down sign up  */
 
-        .signin-btn{
+        .signup-btn{
             color: #fffcfc;
             width: 95%;
             background: #000;
@@ -63,7 +68,7 @@
             margin: 10px 0;
             cursor: pointer;
         }
-        .signin-btn:hover{
+        .signup-btn:hover{
             background-color: rgb(14, 107, 10);
         }
        
@@ -96,7 +101,7 @@
             border: 1.5px #000 solid;
             padding: 8px 12px; 
         }
-        #signin{
+        #signup{
             font-size: 14px;
             margin-left: 30px;
             
@@ -133,7 +138,7 @@
             right: 0;
             content: "";
         }
-        #sign-in-link{
+        #sign-up-link{
             color: #fffcfc;
             text-decoration: none;
         }
@@ -145,7 +150,7 @@
             width: 100%;
             gap: 105px;
             margin-top: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             
         }
         #google{
@@ -168,8 +173,8 @@
     </style>
 </head>
 <body > 
-    <div class="sign-in-form">
-        <p id="signin">Already have account ? <a href="login.html" id="link"><b id="logup">Sign in </b></a></p>
+    <div class="sign-up-form">
+        <p id="signup">Already have account ? <a href="login.html" id="link"><b id="logup">Sign in </b></a></p>
         <h1 > Sign up</h1>
     
     <form action="login.html" method="post">
@@ -192,7 +197,7 @@
         <input type="checkbox" id="checkbox" name="checkbox" required>
         <label for="checkbox">  I've read and agree with <b> The Terms Of Service </b>  and <b>our Private Policy.</b></label>
         <br><br>
-        <button type="submit" class="signin-btn"> <a href="login.html" id="sign-in-link"> Sign up </a></button>
+        <button type="submit" class="signup-btn"> <a href="login.html" id="sign-up-link"> Sign up </a></button>
         <h4 class="straight-line"> or sign up with</h4>
     </form>
     <div class="icons">
